@@ -1,0 +1,13 @@
+{
+  "name": "GifStream",
+  "description": "GifStream Telegram Bot",
+  "keywords": [
+    "GifStream",
+    "Gif",
+    "Stream",
+    "Telegram",
+    "Bot"
+  ],
+  "website": "https://t.me/gifstreambot",
+  "repository": "https://git.heroku.com/gifstream.git"
+}
