@@ -18,7 +18,6 @@ const DefaultUrl = "https://c5952bb4.ngrok.io/"
 var servers = [][]string{
 	[]string{"https://www.sex.com/gifs/", "data\\-src=\"([^\"]+)\""},
 	[]string{"https://www.sex.com/gifs/hardcore/", "data\\-src=\"([^\"]+)\""},
-	[]string{"http://porn-gifs.top", "data\\-highres=\"([^\"]+)\""},
 	[]string{"https://www.porn.com/gifs", "src=\"(.+?\\.gif)\""},
 	[]string{"http://pornopoke.com/porn-gif-xxx/", "src=\"([^\"]+?)\""},
 	[]string{"http://www.porngif.org/", "src=\"(.+?\\.gif)\""},
@@ -28,7 +27,6 @@ var servers = [][]string{
 	[]string{"https://www.utporn.com/gifs", "src=\"(.+?\\.gif)\""},
 	[]string{"http://zhuxian.info/reality/sexy-tori-black-porn-gif.html", "http://[^/]+?/[^\\.]+?\\.gif"},
 	[]string{"http://gif-porn.net/", "src=\"(.+?\\.gif)\""},
-	[]string{"http://www.gifsfor.com/", "src=\"(.+?\\.gif)\""},
 	[]string{"http://www.gifsfor.com/", "src=\"(.+?\\.gif)\""},
 }
 
