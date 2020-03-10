@@ -16,18 +16,18 @@ const Token = "574147246:AAEs6jJsQrg2nFsFqgR7EajeWDZ18MhfnAs"
 const DefaultUrl = "https://c5952bb4.ngrok.io/"
 
 var servers = [][]string{
-	[]string{"https://www.sex.com/gifs/", "data\\-src=\"([^\"]+)\""},
-	[]string{"https://www.sex.com/gifs/hardcore/", "data\\-src=\"([^\"]+)\""},
-	[]string{"https://www.porn.com/gifs", "src=\"(.+?\\.gif)\""},
-	[]string{"http://pornopoke.com/porn-gif-xxx/", "src=\"([^\"]+?)\""},
-	[]string{"http://www.porngif.org/", "src=\"(.+?\\.gif)\""},
-	[]string{"http://101hotguys.com/category/gay-porn-gifs/", "src=\"(.+?\\.gif)\""},
-	[]string{"https://www.eporner.com/gifs/", "src=\"(.+?\\.gif)\""},
-	[]string{"http://www.pornosexgif.org/category/sex-gif/", "src=\"(.+?\\.gif)\""},
-	[]string{"https://www.utporn.com/gifs", "src=\"(.+?\\.gif)\""},
-	[]string{"http://zhuxian.info/reality/sexy-tori-black-porn-gif.html", "http://[^/]+?/[^\\.]+?\\.gif"},
-	[]string{"http://gif-porn.net/", "src=\"(.+?\\.gif)\""},
-	[]string{"http://www.gifsfor.com/", "src=\"(.+?\\.gif)\""},
+	{"https://www.sex.com/gifs/", "data\\-src=\"([^\"]+)\""},
+	{"https://www.sex.com/gifs/hardcore/", "data\\-src=\"([^\"]+)\""},
+	{"https://www.porn.com/gifs", "src=\"(.+?\\.gif)\""},
+	{"http://pornopoke.com/porn-gif-xxx/", "src=\"([^\"]+?)\""},
+	{"http://www.porngif.org/", "src=\"(.+?\\.gif)\""},
+	{"http://101hotguys.com/category/gay-porn-gifs/", "src=\"(.+?\\.gif)\""},
+	{"https://www.eporner.com/gifs/", "src=\"(.+?\\.gif)\""},
+	{"http://www.pornosexgif.org/category/sex-gif/", "src=\"(.+?\\.gif)\""},
+	{"https://www.utporn.com/gifs", "src=\"(.+?\\.gif)\""},
+	{"http://zhuxian.info/reality/sexy-tori-black-porn-gif.html", "http://[^/]+?/[^\\.]+?\\.gif"},
+	{"http://gif-porn.net/", "src=\"(.+?\\.gif)\""},
+	{"http://www.gifsfor.com/", "src=\"(.+?\\.gif)\""},
 }
 
 var blacklistedPatterns = []string{
